@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fascinate">
+
+    <title>Change Calculator</title>
+</head>
+
+
+<body>
+    <h1>Change Calculator</h1>
+    <img class="dollar-header" src="piggyBank.gif" alt="">
+    <div class="sales-container">
+        <input class="input" id="amount-due" type="text">
+        <span class="input-title">How much is due for the sale?</span>
+    </div>
+    <div class="tender-container">
+        <input class="input" id="amount-received" type="text">
+        <span class="input-title">How much has the customer given you?</span>
+    </div>
+    <div>
+        <button class="btn" id="calculate-change" type="button">Calculate</button>
+    </div>
+    <div class="div_section" id="amount-output">
+        <div class="top-div">
+            <div class="dollars-div">
+                <span class="ammount-text">Dollars</span><br>
+                <img class="dollar-img" src="dollar.jpg" alt="">
+                <p id="dollars-output"></p>
+            </div>
+
+        </div>
+        <div class="mid-div">
+            <div class="quarters-div">
+                <span class="ammount-text">Quarters</span><br>
+                <img class="quarter-img" src="quarter.gif" alt="">
+                <p id="quarters-output"></p>
+            </div>
+            <div class="dimes-div">
+                <span class="ammount-text">Dimes</span><br>
+                <img class="dime-img" src="dime.gif" alt="">
+                <p id="dimes-output"></p>
+            </div>
+        </div>
+        <div class="bottom-div">
+            <div class="nickels-div">
+                <span class="ammount-text">Nickels</span><br>
+                <img class="nickels-img" src="nickel.png" alt="">
+                <p id="nickels-output"></p>
+            </div>
+            <div class="pennies-div">
+                <span class="ammount-text">Pennies</span><br>
+                <img class="penny-img" src="lincoln-penny.png" alt="">
+                <p class="penny-output" id="pennies-output"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Don't forget to add your <script> tag here -->
+    <script src="main.js"></script>
+</body>
+
+</html>
